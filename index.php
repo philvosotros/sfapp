@@ -7,6 +7,10 @@
  *
  * Modification History: 
  *               - 6/17/2013 
+ 
+ #Sample Output
+//http://127.0.0.1/_SlimFramework/sfapp/postcode/near/13.2947/123.7933
+//http://127.0.0.1/_SlimFramework/sfapp/postcode/0902
 
  */
 require 'Slim/Slim.php';
@@ -85,7 +89,5 @@ function getConnection() {
 	return $dbh;
 }
 
-#Sample Output
-//http://127.0.0.1/_SlimFramework/sfapp/postcode/near/13.2947/123.7933
-//http://127.0.0.1/_SlimFramework/sfapp/postcode/0902
+
 ?>
